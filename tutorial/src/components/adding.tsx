@@ -40,10 +40,11 @@ const handleChange = (e: ChangeEvent<HTMLInputElement>) => {
 
      </header>
      
-     <div>
-       <h1>Add new meal plan</h1>
+     <div className="bg-blue-500 p-4 text-white">
+       <h1 className="text-3xl font-bold underline">Add new meal plan</h1>
 
       <form onSubmit={handleSubmit}
+        
             >
             <label>Breakfast</label>
             <input type="text"
