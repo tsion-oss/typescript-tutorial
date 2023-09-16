@@ -16,7 +16,7 @@ const initialMeal = {
   lunch: '',
   dinner: '',
 
-}
+};
 
 const [meal, setMeal] = useState<Meal>(initialMeal)
 
